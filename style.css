@@ -194,3 +194,82 @@ body {
 .preview__button:active {
   box-shadow: inset 0 5px 30px rgba(0, 0, 0, 0.1);
 }
+
+.features {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.features__container {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  border-bottom: 2px solid #eeeeee;
+}
+
+.features__list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.features__item {
+  position: relative;
+  max-width: 390px;
+  margin-bottom: 55px;
+  padding-left: 98px;
+  padding-right: 30px;
+  box-sizing: border-box;
+}
+
+.features__item:nth-child(3n) {
+  max-width: 360px;
+  padding-right: 0;
+}
+
+.features__item::before {
+  content: '';
+  display: block;
+  width: 75px;
+  height: 75px;
+  position: absolute;
+  left: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 1px solid #eeeeee;
+  border-radius: 50%;
+}
+
+.features__item:nth-child(1)::before {
+  background-image: url("./img/features-item-1.png");
+}
+
+.features__item:nth-child(2)::before {
+  background-image: url("./img/features-item-2.png");
+}
+
+.features__item:nth-child(3)::before {
+  background-image: url("./img/features-item-3.png");
+}
+
+.features__item:nth-child(4)::before {
+  background-image: url("./img/features-item-4.png");
+}
+
+.features__item:nth-child(5)::before {
+  background-image: url("./img/features-item-5.png");
+}
+
+.features__item:nth-child(6)::before {
+  background-image: url("./img/features-item-6.png");
+}
+
+.features__title {
+  margin: 0;
+  margin-bottom: 22px;
+  font-family: "Dosis", sans-serif;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 700;
+}
