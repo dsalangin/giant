@@ -359,3 +359,119 @@ body {
   left: 0;
   top: 4px;
 }
+
+.screenshot {
+  text-align: center;
+  color: #000000;
+  background-color: #f7fafc;
+}
+
+.screenshot__wrapper {
+  padding-top: 85px;
+  padding-bottom: 120px;
+}
+
+.screenshot__text-wrapper {
+  max-width: 670px;
+  margin: 0 auto;
+}
+
+.screenshot__title {
+  margin: 0;
+  margin-bottom: 30px;
+  font-family: "Dosis", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.screenshot__text {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
+}
+
+.screenshot__screenshot-wrapper {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.screenshot__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.screenshot__item--z-index-1 {
+  z-index: 1;
+}
+
+.screenshot__item--z-index-2 {
+  z-index: 2;
+}
+
+.screenshot__item--z-index-3 {
+  z-index: 3;
+}
+
+.screenshot__item--z-index-4 {
+  z-index: 4;
+}
+
+.screenshot__item--left-1 {
+  margin-right: -195px;
+}
+
+.screenshot__item--left-2 {
+  margin-right: -132px;
+}
+
+.screenshot__item--left-3 {
+  margin-right: -68px;
+}
+
+.screenshot__item--right-1 {
+  margin-left: -195px;;
+}
+
+.screenshot__item--right-2 {
+  margin-left: -132px;
+}
+
+.screenshot__item--right-3 {
+  margin-left: -68px;
+}
+
+.screenshot__button {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  box-shadow: none;
+  border-radius: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.screenshot__button--previous {
+  left: -90px;
+  width: 39px;
+  height: 39px;
+  background-color: #ffffff;
+  border: 1px solid #eeeeee;
+  background-image: url("./img/screnshot-previous.png");
+}
+
+.screenshot__button--next {
+  right: -93px;
+  width: 40px;
+  height: 40px;
+  background-color: #ffffff;
+  border: 3px solid #d0d3d5;
+  background-image: url("./img/screnshot-next.png"), linear-gradient(to right, #fd712c, #f21780 );
+}
