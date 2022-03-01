@@ -479,3 +479,143 @@ body {
   border: 3px solid #d0d3d5;
   background-image: url("./img/screnshot-next.png"), linear-gradient(to right, #fd712c, #f21780 );
 }
+
+.price {
+  /* margin: 0;
+  padding: 0; */
+  text-align: center;
+}
+
+.price__wrapper {
+  padding: 80px 0;
+}
+
+.price__text-wrapper {
+  max-width: 670px;
+  margin: 0 auto;
+}
+.price__title {
+  font-family: "Dosis", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.price__text {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 300; 
+}
+
+.price__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.tariff {
+  width: 263px;
+  color: #000000;
+  background-color: #f7fafc;
+}
+
+.tariff__name {
+  margin: 0;
+  padding: 15px 0;
+  font-family: "Dosis", sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+
+}
+
+.tariff__price {
+  min-height: 120px;
+  margin: 0;
+  padding-top: 25px;
+  font-family: "Dosis", sans-serif;
+  font-size: 48px;
+  line-height: 48px;
+  font-weight: 700;
+  background-image: url("./img/bg-tariff-price.png");
+  background-position: top center;
+  box-sizing: border-box;
+}
+
+.tariff__currency {
+  font-size: 18px;
+  line-height: 42px;
+  vertical-align: text-top;
+}
+
+.tariff__time {
+  font-size: 18px;
+}
+
+.tariff__features {
+  margin: 0;
+  margin-bottom: 35px;
+  padding: 0;
+  list-style: none;
+}
+
+.tariff__feature-item {
+  margin: 0 26px;
+  padding: 5px 0;
+  font-family: "Robobto", sans-serif;
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 300;
+  border-bottom: 1px dashed #eeeeee;
+}
+
+.tariff__feature-item:last-child {
+  border: none;
+}
+
+.tariff__free {
+  display: block;
+  margin-bottom: 15px;
+  font-family: "Robobto", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 300;
+  text-decoration: none;
+  color: #aaaaaa;
+}
+
+.tariff__buy {
+  display: block;
+  width: 140px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  padding: 10px 20px;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #000000;
+  background-color: #ffffff;
+  border: 1px solid #eeeeee;
+  border-radius: 30px;
+}
+
+.tariff--active {
+  background-color: #ffffff;
+  box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+.tariff--active .tariff__price {
+  color: #ffffff;
+  background-image: url("./img/bg-tariff-price-active.png");
+}
+
+.tariff--active .tariff__buy {
+  color: #ffffff;
+  background: linear-gradient(to right, #fd712c, #f21780);
+  border: 3px solid #dedede;
+}
