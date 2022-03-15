@@ -755,3 +755,86 @@ body {
   background-color: #ffffff;
   box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.1);
 }
+
+.download {
+  text-align: center;
+  background: linear-gradient(to right, #f21780, #fd712c);
+}
+
+.download__wrapper {
+  padding-top: 20px;
+  padding-bottom: 80px;
+}
+
+.download__title {
+  margin: 0;
+  margin-bottom: 86px;
+  font-family: "Dosis", sans-serif;
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.download__list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.download__button-download {
+  display: flex;
+  width: 360px;
+  padding: 0;
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  border: none;
+}
+
+.download__icon {
+  width: 115px;
+  min-height: 115px;
+  background-color: #f7fafc;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.download__icon--mac {
+  background-image: url("../img/icon-mac.png");
+  background-position: 21px 26px;
+}
+
+.download__icon--android {
+  background-image: url("../img/icon-android.png");
+  background-position: 21px 26px;
+}
+
+.download__icon--windows {
+  background-image: url("../img/icon-windows.png");
+  background-position: 14px 22px;
+}
+
+.download__text {
+  flex-grow: 1;
+  padding: 23px 20px;
+  text-align: left;
+}
+
+.download__text-download {
+  margin: 0;
+  font-family: "Dosis", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.download__slogan {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 300;
+  color: #777777;
+}
