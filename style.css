@@ -838,3 +838,52 @@ body {
   font-weight: 300;
   color: #777777;
 }
+
+.footer {
+  text-align: center;
+  color: #ffffff;
+  background-color: #222222;
+}
+
+.footer__social-list {
+  display: flex;
+  justify-content: space-between;
+  width: 195px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  padding: 0 5px;
+  list-style: none;
+  font-size: 0;
+}
+
+.footer__link {
+  display: block;
+  width: 23px;
+  height: 23px;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
+.footer__link--facebook {
+  background-image: url("../img/icon-facebook.png");
+}
+
+.footer__link--twitter {
+  background-image: url("../img/icon-twitter.png");
+}
+
+.footer__link--dribbble {
+  background-image: url("../img/icon-dribbble.png");
+}
+
+.footer__link--behance {
+  background-image: url("../img/icon-behance.png");
+}
+
+.footer__copyright {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 300;
+}
